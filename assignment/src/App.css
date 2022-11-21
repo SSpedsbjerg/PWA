@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #08052b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Button {
+  height: 30%;
+  scale: 1.3;
+  border-radius: 25px;
+  text-shadow: 2px 2px 4px #08052b;
+  background-color: #3E3A00;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(241, 241, 241);
+}
+
+.InputField {
+  border-radius: 25px;
+  font-family:'Times New Roman', Times, serif
+}
+
+.InputLabel {
+  font-family: 'Times New Roman', Times, serif
+
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 10px 2px 2px #170f6c;
+}
+
+.ToDo {
+  margin:10px;
+  padding-left: 50%;
+  padding-right: 50%;
+  position: relative;
+  right: 58%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border: 2px solid;
+  border-color: black;
+  background:#16032A;
+  font-family: 'Times New Roman', Times, serif;
+}
